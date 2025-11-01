@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deportes UNICAES | Natación</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    .banner { border-radius: 1rem; overflow: hidden; }
+    .banner img { width: 100%; aspect-ratio: 21/9; object-fit: cover; }
+    .plan-card img { aspect-ratio: 16/9; object-fit: cover; }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Deportes UNICAES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="mainNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="voleibol.html">Voleibol</a></li>
+          <li class="nav-item"><a class="nav-link active" href="natacion.html">Natación</a></li>
+          <li class="nav-item"><a class="nav-link" href="deportes.html">Ambos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <header class="container my-4 banner shadow-sm">
+    <img src="assets/img/natacion_banner.jpg" alt="Piscina semi-olímpica con nadadores en calentamiento">
+  </header>
+
+  <!-- Contenido -->
+  <main class="container my-5">
+    <div class="row g-5">
+      <div class="col-lg-8">
+        <h1 class="h2">Natación</h1>
+        <p class="lead text-secondary">Programa por niveles, con enfoque en técnica de los cuatro estilos: libre, espalda, pecho y mariposa. Énfasis en salidas, virajes y respiración.</p>
+
+        <h2 class="h5 mt-4">Horarios</h2>
+        <div class="table-responsive">
+          <table class="table table-striped align-middle">
+            <thead>
+              <tr>
+                <th>Día</th><th>Hora</th><th>Nivel</th><th>Ubicación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Lun / Mié / Vie</td><td>06:00 – 07:30</td><td>Intermedio / Avanzado</td><td>Piscina</td></tr>
+              <tr><td>Mar / Jue</td><td>15:30 – 17:00</td><td>Principiantes</td><td>Piscina</td></tr>
+              <tr><td>Sábado</td><td>09:00 – 10:30</td><td>Mixto</td><td>Piscina</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 class="h5 mt-4">Planes y Objetivos</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card plan-card h-100 shadow-sm">
+              <img src="assets/img/plan_tecnica.jpg" class="card-img-top" alt="Entrenamiento de técnica con tabla y pull buoy">
+              <div class="card-body">
+                <h3 class="h6">Plan Técnica</h3>
+                <p class="mb-2">Corrección de brazada, patada y alineación corporal. Ideal para quienes desean mejorar eficiencia.</p>
+                <span class="badge text-bg-primary">Nivel: Todos</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card plan-card h-100 shadow-sm">
+              <img src="assets/img/plan_resistencia.jpg" class="card-img-top" alt="Series largas en estilo libre">
+              <div class="card-body">
+                <h3 class="h6">Plan Resistencia</h3>
+                <p class="mb-2">Aumento progresivo del volumen semanal, control de ritmo y respiración bilateral.</p>
+                <span class="badge text-bg-success">Competitivo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="h5 mt-4">Requisitos</h2>
+        <ul>
+          <li>Certificado médico (últimos 6 meses).</li>
+          <li>Gorro de natación, lentes y sandalias de piscina.</li>
+          <li>Respeto a normas de higiene y seguridad.</li>
+        </ul>
+      </div>
+
+      <aside class="col-lg-4">
+        <div class="p-4 border rounded-4 shadow-sm">
+          <h3 class="h6 text-uppercase text-secondary mb-3">Entrenadora</h3>
+          <div class="d-flex align-items-center gap-3">
+            <img class="rounded-circle" style="width:80px;height:80px;object-fit:cover" src="assets/img/coach_natacion.jpg" alt="Entrenadora de natación">
+            <div>
+              <strong>Ing. Sofía Martínez</strong><br>
+              <span class="text-secondary">World Aquatics Coach</span>
+            </div>
+          </div>
+          <hr>
+          <p class="mb-1"><strong>Contacto:</strong></p>
+          <p class="mb-0"><a href="mailto:natacion@unicaes.edu.sv">natacion@unicaes.edu.sv</a></p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Footer con íconos -->
+  <footer class="border-top">
+    <div class="container py-4 d-flex flex-column flex-md-row gap-3 justify-content-between align-items-center">
+      <span class="text-secondary">
+        <i class="bi bi-c-circle"></i> 2025 Deportes UNICAES
+      </span>
+      <span class="text-secondary d-flex flex-column flex-md-row gap-2 align-items-center">
+        <span><i class="bi bi-people-fill"></i> Creado por:</span>
+        <strong>Diego Alejandro Burgos Servellón</strong> ·
+        <strong>José Carlos Manzanares Larin</strong>
+      </span>
+      <span class="d-flex gap-3">
+        <a href="#" class="text-secondary"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-secondary"><i class="bi bi-instagram"></i></a>
+        <a href="mailto:deportes@unicaes.edu.sv" class="text-secondary"><i class="bi bi-envelope-fill"></i></a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
